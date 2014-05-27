@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80611084161D6B0E00F8BC5D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80611083161D6B0E00F8BC5D /* CoreMotion.framework */; };
+		80C8B86716143B0D00C66542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C8B86616143B0D00C66542 /* UIKit.framework */; };
+		80C8B86916143B0D00C66542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C8B86816143B0D00C66542 /* Foundation.framework */; };
+		80C8B86B16143B0D00C66542 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C8B86A16143B0D00C66542 /* CoreGraphics.framework */; };
+		80C8B87116143B0D00C66542 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B86F16143B0D00C66542 /* InfoPlist.strings */; };
+		80C8B87316143B0D00C66542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B87216143B0D00C66542 /* main.m */; };
+		80C8B87716143B0D00C66542 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B87616143B0D00C66542 /* AppDelegate.m */; };
+		80C8B87916143B0D00C66542 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B87816143B0D00C66542 /* Default.png */; };
+		80C8B87B16143B0D00C66542 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B87A16143B0D00C66542 /* Default@2x.png */; };
+		80C8B87D16143B0D00C66542 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B87C16143B0D00C66542 /* Default-568h@2x.png */; };
+		80C8B88016143B0D00C66542 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B87E16143B0D00C66542 /* MainStoryboard.storyboard */; };
+		80C8B88316143B0D00C66542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B88216143B0D00C66542 /* ViewController.m */; };
+		80C8B88B16143BBB00C66542 /* flugzeug.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B88916143BBB00C66542 /* flugzeug.png */; };
+		80C8B88C16143BBB00C66542 /* wolken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C8B88A16143BBB00C66542 /* wolken.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80611083161D6B0E00F8BC5D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		80C8B86216143B0D00C66542 /* FlightPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C8B86616143B0D00C66542 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80C8B86816143B0D00C66542 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80C8B86A16143B0D00C66542 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80C8B86E16143B0D00C66542 /* FlightPlane-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlightPlane-Info.plist"; sourceTree = "<group>"; };
+		80C8B87016143B0D00C66542 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80C8B87216143B0D00C66542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80C8B87416143B0D00C66542 /* FlightPlane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlightPlane-Prefix.pch"; sourceTree = "<group>"; };
+		80C8B87516143B0D00C66542 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80C8B87616143B0D00C66542 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80C8B87816143B0D00C66542 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80C8B87A16143B0D00C66542 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80C8B87C16143B0D00C66542 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80C8B87F16143B0D00C66542 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		80C8B88116143B0D00C66542 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80C8B88216143B0D00C66542 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80C8B88916143BBB00C66542 /* flugzeug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flugzeug.png; sourceTree = "<group>"; };
+		80C8B88A16143BBB00C66542 /* wolken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolken.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C8B85F16143B0C00C66542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80611084161D6B0E00F8BC5D /* CoreMotion.framework in Frameworks */,
+				80C8B86716143B0D00C66542 /* UIKit.framework in Frameworks */,
+				80C8B86916143B0D00C66542 /* Foundation.framework in Frameworks */,
+				80C8B86B16143B0D00C66542 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80C8B85716143B0C00C66542 = {
+			isa = PBXGroup;
+			children = (
+				80611083161D6B0E00F8BC5D /* CoreMotion.framework */,
+				80C8B86C16143B0D00C66542 /* FlightPlane */,
+				80C8B86516143B0D00C66542 /* Frameworks */,
+				80C8B86316143B0D00C66542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80C8B86316143B0D00C66542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B86216143B0D00C66542 /* FlightPlane.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C8B86516143B0D00C66542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B86616143B0D00C66542 /* UIKit.framework */,
+				80C8B86816143B0D00C66542 /* Foundation.framework */,
+				80C8B86A16143B0D00C66542 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80C8B86C16143B0D00C66542 /* FlightPlane */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B87516143B0D00C66542 /* AppDelegate.h */,
+				80C8B87616143B0D00C66542 /* AppDelegate.m */,
+				80C8B87E16143B0D00C66542 /* MainStoryboard.storyboard */,
+				80C8B88116143B0D00C66542 /* ViewController.h */,
+				80C8B88216143B0D00C66542 /* ViewController.m */,
+				80C8B88916143BBB00C66542 /* flugzeug.png */,
+				80C8B88A16143BBB00C66542 /* wolken.jpg */,
+				80C8B86D16143B0D00C66542 /* Supporting Files */,
+			);
+			path = FlightPlane;
+			sourceTree = "<group>";
+		};
+		80C8B86D16143B0D00C66542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B86E16143B0D00C66542 /* FlightPlane-Info.plist */,
+				80C8B86F16143B0D00C66542 /* InfoPlist.strings */,
+				80C8B87216143B0D00C66542 /* main.m */,
+				80C8B87416143B0D00C66542 /* FlightPlane-Prefix.pch */,
+				80C8B87816143B0D00C66542 /* Default.png */,
+				80C8B87A16143B0D00C66542 /* Default@2x.png */,
+				80C8B87C16143B0D00C66542 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C8B86116143B0C00C66542 /* FlightPlane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C8B88616143B0D00C66542 /* Build configuration list for PBXNativeTarget "FlightPlane" */;
+			buildPhases = (
+				80C8B85E16143B0C00C66542 /* Sources */,
+				80C8B85F16143B0C00C66542 /* Frameworks */,
+				80C8B86016143B0C00C66542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightPlane;
+			productName = FlightPlane;
+			productReference = 80C8B86216143B0D00C66542 /* FlightPlane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C8B85916143B0C00C66542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lukas Welte";
+			};
+			buildConfigurationList = 80C8B85C16143B0C00C66542 /* Build configuration list for PBXProject "FlightPlane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80C8B85716143B0C00C66542;
+			productRefGroup = 80C8B86316143B0D00C66542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C8B86116143B0C00C66542 /* FlightPlane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C8B86016143B0C00C66542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C8B87116143B0D00C66542 /* InfoPlist.strings in Resources */,
+				80C8B87916143B0D00C66542 /* Default.png in Resources */,
+				80C8B87B16143B0D00C66542 /* Default@2x.png in Resources */,
+				80C8B87D16143B0D00C66542 /* Default-568h@2x.png in Resources */,
+				80C8B88016143B0D00C66542 /* MainStoryboard.storyboard in Resources */,
+				80C8B88B16143BBB00C66542 /* flugzeug.png in Resources */,
+				80C8B88C16143BBB00C66542 /* wolken.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C8B85E16143B0C00C66542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C8B87316143B0D00C66542 /* main.m in Sources */,
+				80C8B87716143B0D00C66542 /* AppDelegate.m in Sources */,
+				80C8B88316143B0D00C66542 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80C8B86F16143B0D00C66542 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C8B87016143B0D00C66542 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80C8B87E16143B0D00C66542 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C8B87F16143B0D00C66542 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C8B88416143B0D00C66542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80C8B88516143B0D00C66542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C8B88716143B0D00C66542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlightPlane/FlightPlane-Prefix.pch";
+				INFOPLIST_FILE = "FlightPlane/FlightPlane-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80C8B88816143B0D00C66542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlightPlane/FlightPlane-Prefix.pch";
+				INFOPLIST_FILE = "FlightPlane/FlightPlane-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C8B85C16143B0C00C66542 /* Build configuration list for PBXProject "FlightPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C8B88416143B0D00C66542 /* Debug */,
+				80C8B88516143B0D00C66542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C8B88616143B0D00C66542 /* Build configuration list for PBXNativeTarget "FlightPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C8B88716143B0D00C66542 /* Debug */,
+				80C8B88816143B0D00C66542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80C8B85916143B0C00C66542 /* Project object */;
+}
